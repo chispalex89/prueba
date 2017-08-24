@@ -19,6 +19,7 @@ namespace pruebaDeGit
 
         private void button1_Click(object sender, EventArgs e)
         {
+            var x = textBox1.Text;
             MessageBox.Show("esta es una prueba");
         }
     }
