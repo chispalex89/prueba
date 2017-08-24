@@ -19,8 +19,8 @@ namespace pruebaDeGit
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var x = textBox1.Text;
-            MessageBox.Show("esta es una prueba");
+            var x = Convert.ToInt32(textBox1.Text);
+            MessageBox.Show(string.Format("este es un mensaje {0}", x));
         }
     }
 }
